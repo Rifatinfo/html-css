@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 h1{
     color:blue;
+    
+}
+.hero{
+    color:brown;
+    background-image: url(../images/banner-01.jpg);
+    height:90vh;
+    background-position: bottom center;
+    background-size:cover;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.hero h1{
+    text-align: center;
+    color:red;
+    font-weight: 900px;
+    margin-top: 10px;
+    padding-top:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing:20px;
+
+}
+.article, #cow-type{
+     /* margin-left: auto;
+     margin-right: auto;
+     width:80%;
+     margin-top:60px;
+     margin-bottom:60px; */
+     width:80%;
+     margin: 60px auto;
+     background-color: aqua;
+     padding: 60px;
+     border-width:15px;
+     border-color:yellow;
+     border-style:solid;
+}
+.article h2{
+      text-align:center;
+      font-size:48px;
+      border-color: yellow;
+      border-width:2px;
+      border-style:solid;
+      border-top:0;
+      border-right:0;
+      border-left:0;
+      padding-bottom: 30px;
+      margin-bottom:60px;
+
+}
+.article p{
+    font-size: 20px;
+}
+.article p .imp{
+    font-size:2em;
+    line-height:2em;
+    background-color: yellow;
+    display:inline-block;
+    width: 40 px ;
+    
 }
